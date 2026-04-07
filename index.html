@@ -20,12 +20,11 @@
     }
 
     /* Logo en haut à droite */
-   .logo {
+ .logo {
   position: absolute;
-  top: 20px;
+  top: -10px;   /* remonte clairement */
   right: 80px;
   font-size: 90px;
-  color: black;
 
   animation: fadeSlide 1s ease forwards, float 3s ease-in-out infinite;
 }
@@ -38,12 +37,12 @@
     }
 
     p {
-      margin: 30px 20px 60px;
-      font-size: 18px;
-      font-weight: 600;
-      font-style: italic;
-      color: #444;
-    }
+  margin: 30px 20px 60px;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic; /* IMPORTANT */
+  color: #444;
+}
 
     .container {
       margin-top: 20px;
