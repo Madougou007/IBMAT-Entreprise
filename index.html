@@ -13,10 +13,9 @@
   <style>
     body {
       font-family: 'Poppins', sans-serif;
-      text-align: center;
       margin: 0;
-      padding: 0;
       background: #ffffff;
+      text-align: center;
     }
 
     h1 {
@@ -37,11 +36,11 @@
     .btn {
       display: flex;
       align-items: center;
-      justify-content: center;
-      gap: 10px;
+      justify-content: flex-start;
+      gap: 15px;
       margin: 20px auto;
-      padding: 16px;
-      width: 260px;
+      padding: 16px 20px;
+      width: 280px;
       background: #00aaff;
       color: white;
       text-decoration: none;
@@ -53,7 +52,14 @@
     }
 
     .btn i {
-      font-size: 18px;
+      font-size: 20px;
+      width: 25px;
+      text-align: center;
+    }
+
+    .btn span {
+      flex: 1;
+      text-align: center;
     }
 
     .btn:hover {
@@ -69,10 +75,25 @@
 
 <p>Cliquez sur l’un des boutons ci-dessous pour accéder à mes plateformes.</p>
 
-<a href="#" class="btn"><i class="fab fa-facebook"></i> Facebook</a>
-<a href="#" class="btn"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-<a href="#" class="btn"><i class="fab fa-snapchat"></i> Snapchat</a>
-<a href="#" class="btn"><i class="fab fa-instagram"></i> Instagram</a>
+<a href="#" class="btn">
+  <i class="fab fa-facebook"></i>
+  <span>Facebook</span>
+</a>
+
+<a href="#" class="btn">
+  <i class="fab fa-whatsapp"></i>
+  <span>WhatsApp</span>
+</a>
+
+<a href="#" class="btn">
+  <i class="fab fa-snapchat"></i>
+  <span>Snapchat</span>
+</a>
+
+<a href="#" class="btn">
+  <i class="fab fa-instagram"></i>
+  <span>Instagram</span>
+</a>
 
 </body>
 </html>
