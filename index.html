@@ -88,6 +88,25 @@
       transform: scale(1.05);
       opacity: 0.9;
     }
+
+    /* Animation entrée */
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animation flottante */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(6px); }
+  100% { transform: translateY(0px); }
+}
   </style>
 </head>
 
