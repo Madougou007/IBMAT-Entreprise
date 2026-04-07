@@ -17,31 +17,39 @@
       background: #ffffff;
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
-      height: 100vh;
+      min-height: 100vh;
+    }
+
+    /* Logo en haut à droite */
+    .top-right {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 30px;
+      color: #000;
     }
 
     h1 {
-      font-size: 48px;
-      color: #00aaff;
+      margin-top: 120px;
+      font-size: 42px;
+      color: #000000;
       font-weight: 700;
-      align-self: flex-start;
-      margin-left: 40px;
-      margin-bottom: 10px;
+      text-align: center;
     }
 
     p {
+      margin: 40px 20px 60px;
       font-size: 18px;
       font-weight: 600;
       font-style: italic;
       color: #444;
-      margin-bottom: 40px;
+      text-align: center;
     }
 
     .container {
       text-align: center;
-      margin-top: 40px;
+      width: 100%;
     }
 
     .btn {
@@ -89,10 +97,16 @@
 
 <body>
 
+<!-- Logo Amazon -->
+<div class="top-right">
+  <i class="fab fa-amazon"></i>
+</div>
+
 <h1>Bienvenue</h1>
 
+<p>Cliquez sur l’un des boutons ci-dessous pour accéder à mes plateformes.</p>
+
 <div class="container">
-  <p>Cliquez sur l’un des boutons ci-dessous pour accéder à mes plateformes.</p>
 
   <a href="#" class="btn facebook">
     <i class="fab fa-facebook"></i>
@@ -113,6 +127,7 @@
     <i class="fab fa-instagram"></i>
     <span>Instagram</span>
   </a>
+
 </div>
 
 </body>
