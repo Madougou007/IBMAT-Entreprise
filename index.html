@@ -4,8 +4,11 @@
   <meta charset="UTF-8">
   <title>Contact</title>
 
-  <!-- Police moderne -->
+  <!-- Police -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icônes -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <style>
     body {
@@ -32,7 +35,10 @@
     }
 
     .btn {
-      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
       margin: 20px auto;
       padding: 16px;
       width: 260px;
@@ -44,6 +50,10 @@
       font-size: 16px;
       box-shadow: 0 8px 20px rgba(0,0,0,0.1);
       transition: 0.3s;
+    }
+
+    .btn i {
+      font-size: 18px;
     }
 
     .btn:hover {
@@ -59,10 +69,10 @@
 
 <p>Cliquez sur l’un des boutons ci-dessous pour accéder à mes plateformes.</p>
 
-<a href="#" class="btn">Facebook</a>
-<a href="#" class="btn">WhatsApp</a>
-<a href="#" class="btn">Snapchat</a>
-<a href="#" class="btn">Instagram</a>
+<a href="#" class="btn"><i class="fab fa-facebook"></i> Facebook</a>
+<a href="#" class="btn"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+<a href="#" class="btn"><i class="fab fa-snapchat"></i> Snapchat</a>
+<a href="#" class="btn"><i class="fab fa-instagram"></i> Instagram</a>
 
 </body>
 </html>
