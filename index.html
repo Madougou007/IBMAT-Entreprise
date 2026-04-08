@@ -90,7 +90,18 @@ p {
 /* Clic (effet app mobile) */
 .btn:active {
     transform: scale(0.93);
-    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2); }
+
+/* Micro animation icône au hover */
+.btn:hover i {
+    transform: scale(1.2) rotate(5deg);
+    transition: 0.3s;
+}
+
+/* Animation fluide icône */
+.btn i {
+    transition: transform 0.3s ease;
+}
 </style>
 
 </head>
