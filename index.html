@@ -105,7 +105,16 @@ p {
 </style>
 
 </head>
-
+ <script>
+document.querySelectorAll('.btn').forEach(button => {
+    button.addEventListener('click', () => {
+        if (navigator.vibrate) {
+            navigator.vibrate(50); // vibration courte
+        }
+    });
+});
+</script>
+    
 <body>
 
 <div class="container">
